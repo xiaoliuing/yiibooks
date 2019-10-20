@@ -1,0 +1,15 @@
+.add-page {
+  max-width: 1240px;
+  min-width: 820px;
+  margin: 100px auto;
+  text-align: center;
+}
+.add-page input {
+  height: 50px;
+}
+.add-page .input {
+  margin: 20px;
+}
+.add-page button {
+  margin: 40px 50px;
+}

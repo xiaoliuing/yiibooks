@@ -1,0 +1,15 @@
+.index-page {
+  max-width: 1240px;
+  min-width: 820px;
+  margin: 100px auto;
+  text-align: center;
+}
+.index-page .input {
+  width: 500px;
+  margin: 40px;
+}
+
+.span-action span{
+  color: rgba(1,134,255,1);
+  cursor: pointer;
+}
