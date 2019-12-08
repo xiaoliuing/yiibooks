@@ -1,0 +1,40 @@
+{% extends './layout.html' %}
+
+{% block content %}
+  <div class="page-header">
+    <h1 class="book-title">图书管理系统</h1>
+  </div>
+  <a class="btn btn-primary" href="/add">添加图书</a>
+  <table class="table table-bordered table-hover book-table">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>书名</th>
+        <th>作者</th>
+        <th>价格</th>
+        <th>添加时间</th>
+        <th>操作</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for book in body %}
+      <tr>
+        <td id="b_id">{{ book.id }}</td>
+        <td>{{ book.b_name }}</td>
+        <td>{{ book.b_autor }}</td>
+        <td>{{ book.b_price }}</td>
+        <td>{{ book.b_add_time|date('Y-m-d') }}</td>
+        <td>
+          <a href="/view/{{ book.id }}">查看</a>
+          <a href="/update/{{ book.id }}">编辑</a>
+          <a href="/del/{{ book.id }}">删除</a>
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+{% endblock %}
+
+{% block styles %}
+<link rel="stylesheet" href="/css/home.css">
+{% endblock %}

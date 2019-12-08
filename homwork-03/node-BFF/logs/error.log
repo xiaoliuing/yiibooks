@@ -1,0 +1,122 @@
+[2019-12-06T17:08:41.411] [ERROR] cheese - { code: 1, message: '❌ 接口异常', data: [] }
+[2019-12-06T17:10:23.207] [ERROR] cheese - { code: 1, message: '❌ 接口异常', data: [] }
+[2019-12-06T17:10:46.548] [ERROR] cheese - { code: 1, message: '❌ 接口异常', data: [] }
+[2019-12-06T17:15:34.163] [ERROR] cheese - { code: 1, message: '❌ 接口异常', data: [] }
+[2019-12-06T17:15:36.510] [ERROR] cheese - { code: 1, message: '❌ 接口异常', data: [] }
+[2019-12-06T17:15:39.095] [ERROR] cheese - { code: 1, message: '❌ 接口异常', data: [] }
+[2019-12-06T17:19:41.769] [ERROR] cheese - { code: 1, message: '❌ 接口异常', data: [] }
+[2019-12-06T17:20:18.884] [ERROR] cheese - { code: 1, message: '❌ 接口异常', data: [] }
+[2019-12-06T17:24:00.718] [ERROR] cheese - { code: 1, message: '❌ 接口异常', data: [] }
+[2019-12-06T17:29:15.714] [ERROR] cheese - { code: 1, message: '❌ 接口异常', data: [] }
+[2019-12-06T17:29:20.152] [ERROR] cheese - { code: 1, message: '❌ 接口异常', data: [] }
+[2019-12-06T17:47:51.468] [ERROR] cheese - { code: 1, message: '❌ 接口异常', data: [] }
+[2019-12-06T17:47:53.512] [ERROR] cheese - { code: 1, message: '❌ 接口异常', data: [] }
+[2019-12-06T17:47:53.996] [ERROR] cheese - { code: 1, message: '❌ 接口异常', data: [] }
+[2019-12-06T17:47:54.329] [ERROR] cheese - { code: 1, message: '❌ 接口异常', data: [] }
+[2019-12-06T17:53:24.791] [ERROR] cheese - { code: 1, message: '❌ 接口异常', data: [] }
+[2019-12-06T17:53:30.517] [ERROR] cheese - { code: 1, message: '❌ 接口异常', data: [] }
+[2019-12-07T17:19:41.299] [ERROR] cheese - { [Error: ENOENT: no such file or directory, open '/Users/edz/Documents/yiibook-twos-hw/homwork-03/node-BFF/views/books/index.html']
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path:
+   '/Users/edz/Documents/yiibook-twos-hw/homwork-03/node-BFF/views/books/index.html' }
+[2019-12-07T17:20:27.642] [ERROR] cheese - { [Error: ENOENT: no such file or directory, open '/Users/edz/Documents/yiibook-twos-hw/homwork-03/node-BFF/views/books/index.html']
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path:
+   '/Users/edz/Documents/yiibook-twos-hw/homwork-03/node-BFF/views/books/index.html' }
+[2019-12-07T17:20:31.016] [ERROR] cheese - { [Error: ENOENT: no such file or directory, open '/Users/edz/Documents/yiibook-twos-hw/homwork-03/node-BFF/views/books/index.html']
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path:
+   '/Users/edz/Documents/yiibook-twos-hw/homwork-03/node-BFF/views/books/index.html' }
+[2019-12-07T17:21:15.466] [ERROR] cheese - { [Error: ENOENT: no such file or directory, open '/Users/edz/Documents/yiibook-twos-hw/homwork-03/node-BFF/views/books/index.html']
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path:
+   '/Users/edz/Documents/yiibook-twos-hw/homwork-03/node-BFF/views/books/index.html' }
+[2019-12-07T17:21:45.805] [ERROR] cheese - { [Error: ENOENT: no such file or directory, open '/Users/edz/Documents/yiibook-twos-hw/homwork-03/node-BFF/views/books/index.html']
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path:
+   '/Users/edz/Documents/yiibook-twos-hw/homwork-03/node-BFF/views/books/index.html' }
+[2019-12-07T17:21:48.337] [ERROR] cheese - { [Error: ENOENT: no such file or directory, open '/Users/edz/Documents/yiibook-twos-hw/homwork-03/node-BFF/views/books/index.html']
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path:
+   '/Users/edz/Documents/yiibook-twos-hw/homwork-03/node-BFF/views/books/index.html' }
+[2019-12-07T17:57:30.762] [ERROR] cheese - Error: Unexpected tag "book.b_name" on line 7 in file /Users/edz/Documents/yiibook-twos-hw/homwork-03/node-BFF/views/books/look.html.
+    at Object.exports.throwError (/Users/edz/Documents/yiibook-twos-hw/homwork-03/node-BFF/node_modules/swig-templates/lib/utils.js:188:9)
+    at parseTag (/Users/edz/Documents/yiibook-twos-hw/homwork-03/node-BFF/node_modules/swig-templates/lib/parser.js:675:13)
+    at /Users/edz/Documents/yiibook-twos-hw/homwork-03/node-BFF/node_modules/swig-templates/lib/parser.js:778:15
+    at Object.exports.each (/Users/edz/Documents/yiibook-twos-hw/homwork-03/node-BFF/node_modules/swig-templates/lib/utils.js:45:11)
+    at Object.exports.parse (/Users/edz/Documents/yiibook-twos-hw/homwork-03/node-BFF/node_modules/swig-templates/lib/parser.js:755:9)
+    at exports.Swig.parse (/Users/edz/Documents/yiibook-twos-hw/homwork-03/node-BFF/node_modules/swig-templates/lib/swig.js:383:19)
+    at exports.Swig.precompile (/Users/edz/Documents/yiibook-twos-hw/homwork-03/node-BFF/node_modules/swig-templates/lib/swig.js:526:23)
+    at exports.Swig.compile (/Users/edz/Documents/yiibook-twos-hw/homwork-03/node-BFF/node_modules/swig-templates/lib/swig.js:651:16)
+    at /Users/edz/Documents/yiibook-twos-hw/homwork-03/node-BFF/node_modules/swig-templates/lib/swig.js:729:27
+    at FSReqCallback.readFileAfterClose [as oncomplete] (internal/fs/read_file_context.js:54:3)
+[2019-12-07T18:05:01.476] [ERROR] cheese - Error: Unexpected tag "= book.b_autor" on line 16 in file /Users/edz/Documents/yiibook-twos-hw/homwork-03/node-BFF/views/books/look.html.
+    at Object.exports.throwError (/Users/edz/Documents/yiibook-twos-hw/homwork-03/node-BFF/node_modules/swig-templates/lib/utils.js:188:9)
+    at parseTag (/Users/edz/Documents/yiibook-twos-hw/homwork-03/node-BFF/node_modules/swig-templates/lib/parser.js:675:13)
+    at /Users/edz/Documents/yiibook-twos-hw/homwork-03/node-BFF/node_modules/swig-templates/lib/parser.js:778:15
+    at Object.exports.each (/Users/edz/Documents/yiibook-twos-hw/homwork-03/node-BFF/node_modules/swig-templates/lib/utils.js:45:11)
+    at Object.exports.parse (/Users/edz/Documents/yiibook-twos-hw/homwork-03/node-BFF/node_modules/swig-templates/lib/parser.js:755:9)
+    at exports.Swig.parse (/Users/edz/Documents/yiibook-twos-hw/homwork-03/node-BFF/node_modules/swig-templates/lib/swig.js:383:19)
+    at exports.Swig.precompile (/Users/edz/Documents/yiibook-twos-hw/homwork-03/node-BFF/node_modules/swig-templates/lib/swig.js:526:23)
+    at exports.Swig.compile (/Users/edz/Documents/yiibook-twos-hw/homwork-03/node-BFF/node_modules/swig-templates/lib/swig.js:651:16)
+    at /Users/edz/Documents/yiibook-twos-hw/homwork-03/node-BFF/node_modules/swig-templates/lib/swig.js:729:27
+    at FSReqCallback.readFileAfterClose [as oncomplete] (internal/fs/read_file_context.js:54:3)
+[2019-12-07T18:06:13.422] [ERROR] cheese - Error: Invalid filter "b_name" on line 7 in file /Users/edz/Documents/yiibook-twos-hw/homwork-03/node-BFF/views/books/look.html.
+    at Object.exports.throwError (/Users/edz/Documents/yiibook-twos-hw/homwork-03/node-BFF/node_modules/swig-templates/lib/utils.js:188:9)
+    at TokenParser.parseToken (/Users/edz/Documents/yiibook-twos-hw/homwork-03/node-BFF/node_modules/swig-templates/lib/parser.js:240:17)
+    at /Users/edz/Documents/yiibook-twos-hw/homwork-03/node-BFF/node_modules/swig-templates/lib/parser.js:112:12
+    at Object.exports.each (/Users/edz/Documents/yiibook-twos-hw/homwork-03/node-BFF/node_modules/swig-templates/lib/utils.js:45:11)
+    at TokenParser.parse (/Users/edz/Documents/yiibook-twos-hw/homwork-03/node-BFF/node_modules/swig-templates/lib/parser.js:102:11)
+    at parseVariable (/Users/edz/Documents/yiibook-twos-hw/homwork-03/node-BFF/node_modules/swig-templates/lib/parser.js:610:18)
+    at /Users/edz/Documents/yiibook-twos-hw/homwork-03/node-BFF/node_modules/swig-templates/lib/parser.js:770:15
+    at Object.exports.each (/Users/edz/Documents/yiibook-twos-hw/homwork-03/node-BFF/node_modules/swig-templates/lib/utils.js:45:11)
+    at Object.exports.parse (/Users/edz/Documents/yiibook-twos-hw/homwork-03/node-BFF/node_modules/swig-templates/lib/parser.js:755:9)
+    at exports.Swig.parse (/Users/edz/Documents/yiibook-twos-hw/homwork-03/node-BFF/node_modules/swig-templates/lib/swig.js:383:19)
+[2019-12-07T19:18:38.256] [ERROR] cheese - TypeError: book.getBookData is not a function
+    at _callee2$ (/Users/edz/Documents/yiibook-twos-hw/homwork-03/node-BFF/server/controllers/BooksController.js:17:28)
+    at tryCatch (/Users/edz/Documents/yiibook-twos-hw/homwork-03/node-BFF/node_modules/babel-polyfill/node_modules/regenerator-runtime/runtime.js:65:40)
+    at Generator.invoke [as _invoke] (/Users/edz/Documents/yiibook-twos-hw/homwork-03/node-BFF/node_modules/babel-polyfill/node_modules/regenerator-runtime/runtime.js:303:22)
+    at Generator.prototype.(anonymous function) [as next] (/Users/edz/Documents/yiibook-twos-hw/homwork-03/node-BFF/node_modules/babel-polyfill/node_modules/regenerator-runtime/runtime.js:117:21)
+    at step (/Users/edz/Documents/yiibook-twos-hw/homwork-03/node-BFF/server/controllers/BooksController.js:15:191)
+    at /Users/edz/Documents/yiibook-twos-hw/homwork-03/node-BFF/server/controllers/BooksController.js:15:437
+    at new Promise (<anonymous>)
+    at /Users/edz/Documents/yiibook-twos-hw/homwork-03/node-BFF/server/controllers/BooksController.js:15:99
+    at actionView (/Users/edz/Documents/yiibook-twos-hw/homwork-03/node-BFF/server/controllers/BooksController.js:94:22)
+    at dispatch (/Users/edz/Documents/yiibook-twos-hw/homwork-03/node-BFF/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+[2019-12-07T19:19:59.883] [ERROR] cheese - TypeError: book.getBookData is not a function
+    at _callee2$ (/Users/edz/Documents/yiibook-twos-hw/homwork-03/node-BFF/server/controllers/BooksController.js:17:28)
+    at tryCatch (/Users/edz/Documents/yiibook-twos-hw/homwork-03/node-BFF/node_modules/babel-polyfill/node_modules/regenerator-runtime/runtime.js:65:40)
+    at Generator.invoke [as _invoke] (/Users/edz/Documents/yiibook-twos-hw/homwork-03/node-BFF/node_modules/babel-polyfill/node_modules/regenerator-runtime/runtime.js:303:22)
+    at Generator.prototype.(anonymous function) [as next] (/Users/edz/Documents/yiibook-twos-hw/homwork-03/node-BFF/node_modules/babel-polyfill/node_modules/regenerator-runtime/runtime.js:117:21)
+    at step (/Users/edz/Documents/yiibook-twos-hw/homwork-03/node-BFF/server/controllers/BooksController.js:15:191)
+    at /Users/edz/Documents/yiibook-twos-hw/homwork-03/node-BFF/server/controllers/BooksController.js:15:437
+    at new Promise (<anonymous>)
+    at /Users/edz/Documents/yiibook-twos-hw/homwork-03/node-BFF/server/controllers/BooksController.js:15:99
+    at actionView (/Users/edz/Documents/yiibook-twos-hw/homwork-03/node-BFF/server/controllers/BooksController.js:94:22)
+    at dispatch (/Users/edz/Documents/yiibook-twos-hw/homwork-03/node-BFF/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+[2019-12-07T19:20:04.480] [ERROR] cheese - TypeError: book.getBookData is not a function
+    at _callee2$ (/Users/edz/Documents/yiibook-twos-hw/homwork-03/node-BFF/server/controllers/BooksController.js:17:28)
+    at tryCatch (/Users/edz/Documents/yiibook-twos-hw/homwork-03/node-BFF/node_modules/babel-polyfill/node_modules/regenerator-runtime/runtime.js:65:40)
+    at Generator.invoke [as _invoke] (/Users/edz/Documents/yiibook-twos-hw/homwork-03/node-BFF/node_modules/babel-polyfill/node_modules/regenerator-runtime/runtime.js:303:22)
+    at Generator.prototype.(anonymous function) [as next] (/Users/edz/Documents/yiibook-twos-hw/homwork-03/node-BFF/node_modules/babel-polyfill/node_modules/regenerator-runtime/runtime.js:117:21)
+    at step (/Users/edz/Documents/yiibook-twos-hw/homwork-03/node-BFF/server/controllers/BooksController.js:15:191)
+    at /Users/edz/Documents/yiibook-twos-hw/homwork-03/node-BFF/server/controllers/BooksController.js:15:437
+    at new Promise (<anonymous>)
+    at /Users/edz/Documents/yiibook-twos-hw/homwork-03/node-BFF/server/controllers/BooksController.js:15:99
+    at actionView (/Users/edz/Documents/yiibook-twos-hw/homwork-03/node-BFF/server/controllers/BooksController.js:94:22)
+    at dispatch (/Users/edz/Documents/yiibook-twos-hw/homwork-03/node-BFF/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+[2019-12-08T01:19:16.200] [ERROR] cheese - { code: 1, message: '❌ 接口异常', data: [] }
+[2019-12-08T08:47:01.100] [ERROR] cheese - { code: 1, message: '❌ 接口异常', data: [] }
+[2019-12-08T13:58:54.911] [ERROR] cheese - { code: 1, message: '❌ 接口异常', data: [] }

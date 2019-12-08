@@ -1,0 +1,35 @@
+{% extends './layout.html' %}
+
+{% block content %}
+  <div class="page-header">
+    <h1 class="book-title">图书修改</h1>
+  </div>
+
+  <div class="form-group">
+    <label for="inputEmail3">书名</label>
+    <input type="text" class="form-control" id="b_name" value="{{ book.b_name }}" readonly>
+  </div>
+  <div class="form-group">
+    <label for="inputPassword3">作者</label>
+    <input type="text" class="form-control" id="b_autor" value="{{ book.b_autor }}" readonly>
+  </div>
+  <div class="form-group">
+    <label for="inputEmail3">价格</label>
+    <input type="text" class="form-control" id="b_price" value="{{ book.b_price }}" readonly>
+  </div>
+  <div class="form-group">
+    <label for="inputPassword3">添加时间</label>
+    <input type="text" class="form-control" id="b_add_time" value="{{ book.b_add_time|date('Y-m-d') }}" readonly>
+  </div>
+
+  <div class="form-group">
+    <div class="col-sm-10">
+      <a class="btn btn-primary col-sm-4 btn-lg" href="/home">返回</a>
+      <a class="btn btn-warning col-sm-4 col-sm-offset-2 btn-lg" href="/update/{{ book.id }}">修改</a>
+    </div>
+  </div>
+{% endblock %}
+
+{% block styles %}
+<link rel="stylesheet" href="/css/view.css">
+{% endblock %}

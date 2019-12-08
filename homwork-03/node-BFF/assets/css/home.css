@@ -1,0 +1,12 @@
+.book-title {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.book-table {
+  margin-top: 30px;
+}
+
+th, td {
+  text-align: center;
+}
